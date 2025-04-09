@@ -8,5 +8,5 @@ https://github.com/aulassaojudas/todolist_sem_ui.git
 
 Grupo:
 - Samuel O. Cáceres - 823153357.
-
+- Guilherme B. José - 823127590.
 
