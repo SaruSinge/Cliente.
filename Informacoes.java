@@ -27,19 +27,18 @@ public class Informacoes {
         return this.city;
     }
 
-    public void toPro(int id) {
-        System.out.println("Nome: " + name + ", id: " + id); 
-        System.out.println("Endereço: " + address);
-        System.out.println("Cidade: " + city);
-        System.out.println("----------------------------------------------");
+    public void toPro(int id) { //O samuel inventou esse aqui pra fazer o link com o caso 4 por que o toString não tava funcionando
+        System.out.println(" - Nome: " + name); 
+        System.out.println(" - Endereço: " + address);
+        System.out.println(" - Cidade: " + city);
+        System.out.println(" ");
     }
 
     @Override
     public String toString() {
         return name + ", id= " + id + " \n" +
                "Enderço: " + address + " \n" +
-               "Cidade : " + city + "\n" +
-               "---------------------------------";
+               "Cidade : " + city + "\n";
                
 
     }
